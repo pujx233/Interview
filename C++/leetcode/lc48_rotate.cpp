@@ -18,7 +18,7 @@ public:
       }
     }
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < matrix.size(); ++i) {
       reverse(matrix[i].begin(), matrix[i].end());
     }
   }
@@ -34,6 +34,5 @@ int main() {
     {7, 8, 9}
   };
 
-  sol.rotate(matrix);
-
+  solution.rotate(matrix);
 }

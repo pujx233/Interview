@@ -42,3 +42,18 @@ public:
 };
 
 }
+
+int main() {
+  lc239::Solution solution;
+
+  vector<int> nums = {1, 3, -1, -3, 5, 3, 6, 7};
+  int k = 3;
+
+  vector<int> result = solution.maxSlidingWindow(nums, k);
+
+  cout << "最大滑动窗口值为: [";
+  for (size_t i = 0; i < result.size(); ++i) {
+    cout << result[i] << (i == result.size() - 1 ? "" : ", ");
+  }
+  cout << "]" << endl;
+}
