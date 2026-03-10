@@ -1,4 +1,4 @@
-package lc42;
+package Java.Leetcode.lc42;
 
 class Solution {
   public int trap(int[] height) {

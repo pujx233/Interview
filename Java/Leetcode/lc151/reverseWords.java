@@ -1,4 +1,4 @@
-package lc151;
+package Java.Leetcode.lc151;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package lc232;
+package Java.Leetcode.lc232;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

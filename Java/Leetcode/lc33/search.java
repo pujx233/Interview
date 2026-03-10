@@ -1,4 +1,4 @@
-package lc33;
+package Java.Leetcode.lc33;
 
 class Solution {
   public int search(int[] nums, int target) {

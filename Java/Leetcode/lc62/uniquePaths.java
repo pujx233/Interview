@@ -1,4 +1,4 @@
-package lc62;
+package Java.Leetcode.lc62;
 
 class Solution {
   public int uniquePaths(int m, int n) {

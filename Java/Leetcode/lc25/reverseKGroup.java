@@ -1,4 +1,4 @@
-package lc25;
+package Java.Leetcode.lc25;
 
 /**
  * LeetCode 提供的单链表节点定义

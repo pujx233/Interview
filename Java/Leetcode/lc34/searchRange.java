@@ -1,4 +1,4 @@
-package lc34;
+package Java.Leetcode.lc34;
 
 import java.util.Arrays;
 

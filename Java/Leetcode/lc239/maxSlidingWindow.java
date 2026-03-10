@@ -1,4 +1,4 @@
-package lc239;
+package Java.Leetcode.lc239;
 
 import java.util.Deque;
 import java.util.LinkedList;

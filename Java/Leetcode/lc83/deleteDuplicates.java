@@ -1,4 +1,4 @@
-package lc83;
+package Java.Leetcode.lc83;
 
 /**
  * LeetCode 提供的单链表节点定义

@@ -1,4 +1,4 @@
-package lc300;
+package Java.Leetcode.lc300;
 
 import java.util.Arrays;
 

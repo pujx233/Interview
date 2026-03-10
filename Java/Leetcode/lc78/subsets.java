@@ -1,4 +1,4 @@
-package lc78;
+package Java.Leetcode.lc78;
 
 import java.util.ArrayList;
 import java.util.List;

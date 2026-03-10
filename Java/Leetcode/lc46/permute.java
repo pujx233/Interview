@@ -1,4 +1,4 @@
-package lc46;
+package Java.Leetcode.lc46;
 
 import java.util.ArrayList;
 import java.util.List;

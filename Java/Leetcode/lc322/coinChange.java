@@ -1,4 +1,4 @@
-package lc322;
+package Java.Leetcode.lc322;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package lc41;
+package Java.Leetcode.lc41;
 
 class Solution {
   public int firstMissingPositive(int[] nums) {

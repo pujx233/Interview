@@ -1,4 +1,4 @@
-package lc113;
+package Java.Leetcode.lc113;
 
 import java.util.LinkedList;
 import java.util.Queue;

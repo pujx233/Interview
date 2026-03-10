@@ -1,4 +1,4 @@
-package lc221;
+package Java.Leetcode.lc221;
 
 class Solution {
   public int maximalSquare(char[][] matrix) {

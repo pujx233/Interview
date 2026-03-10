@@ -1,4 +1,4 @@
-package lc739;
+package Java.Leetcode.lc739;
 
 import java.util.Arrays;
 import java.util.Stack;

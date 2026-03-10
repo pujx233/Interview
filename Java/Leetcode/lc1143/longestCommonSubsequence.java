@@ -1,4 +1,4 @@
-package lc1143;
+package Java.Leetcode.lc1143;
 
 class Solution {
   public int longestCommonSubsequence(String text1, String text2) {

@@ -1,4 +1,4 @@
-package lc121;
+package Java.Leetcode.lc121;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package lc695;
+package Java.Leetcode.lc695;
 
 class Solution {
   public int maxAreaOfIsland(int[][] grid) {

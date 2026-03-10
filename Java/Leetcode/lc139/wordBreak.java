@@ -1,4 +1,4 @@
-package lc139;
+package Java.Leetcode.lc139;
 
 import java.util.Arrays;
 import java.util.HashSet;

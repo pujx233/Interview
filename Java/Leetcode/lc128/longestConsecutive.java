@@ -1,4 +1,4 @@
-package lc128;
+package Java.Leetcode.lc128;
 
 import java.util.HashSet;
 import java.util.Set;

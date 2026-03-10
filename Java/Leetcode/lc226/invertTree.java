@@ -1,4 +1,4 @@
-package lc226;
+package Java.Leetcode.lc226;
 
 import java.util.LinkedList;
 import java.util.Queue;

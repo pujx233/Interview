@@ -1,4 +1,4 @@
-package lc198;
+package Java.Leetcode.lc198;
 
 class Solution {
   public int rob(int[] nums) {

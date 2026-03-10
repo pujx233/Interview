@@ -1,4 +1,4 @@
-package lc32;
+package Java.Leetcode.lc32;
 
 class Solution {
   public int longestValidParentheses(String s) {

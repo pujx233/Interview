@@ -1,4 +1,4 @@
-package lc215;
+package Java.Leetcode.lc215;
 
 class Solution {
   /**

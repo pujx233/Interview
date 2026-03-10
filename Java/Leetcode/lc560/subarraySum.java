@@ -1,4 +1,4 @@
-package lc560;
+package Java.Leetcode.lc560;
 
 import java.util.HashMap;
 import java.util.Map;

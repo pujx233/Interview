@@ -1,4 +1,4 @@
-package lc718;
+package Java.Leetcode.lc718;
 
 class Solution {
   public int findLength(int[] nums1, int[] nums2) {

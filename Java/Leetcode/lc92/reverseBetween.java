@@ -1,4 +1,4 @@
-package lc92;
+package Java.Leetcode.lc92;
 
 /**
  * LeetCode 提供的单链表节点定义

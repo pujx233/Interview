@@ -1,4 +1,4 @@
-package lc208;
+package Java.Leetcode.lc208;
 
 
 class Trie {

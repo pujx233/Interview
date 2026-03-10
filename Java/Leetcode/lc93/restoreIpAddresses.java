@@ -1,4 +1,4 @@
-package lc93;
+package Java.Leetcode.lc93;
 
 import java.util.ArrayList;
 import java.util.List;

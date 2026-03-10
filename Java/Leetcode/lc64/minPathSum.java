@@ -1,4 +1,4 @@
-package lc64;
+package Java.Leetcode.lc64;
 
 class Solution {
   public int minPathSum(int[][] grid) {

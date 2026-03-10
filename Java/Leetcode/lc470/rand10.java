@@ -1,4 +1,4 @@
-package lc470;
+package Java.Leetcode.lc470;
 
 import java.util.Random;
 

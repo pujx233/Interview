@@ -1,4 +1,4 @@
-package lc236;
+package Java.Leetcode.lc236;
 
 
 import java.util.LinkedList;
