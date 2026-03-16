@@ -1,4 +1,8 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/C++",
-    "cmake.buildDirectory": "${workspaceFolder}/build"
+    "cmake.buildDirectory": "${workspaceFolder}/C++/build",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "cmake.sourceDirectory": "/Users/sai/Desktop/Interview/C++"
 }
