@@ -1,15 +1,58 @@
 {
   "tasks": [
     {
-      "type": "cmake",
-      "label": "CMake: configure",
-      "command": "configure",
+      "label": "C++: configure",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S",
+        "${workspaceFolder}/C++",
+        "-B",
+        "${workspaceFolder}/C++/.cache/cmake",
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": [],
-      "detail": "CMake template configure task",
+      "detail": "Generate a fresh portable CMake cache and compile_commands.json for the C++ project."
+    },
+    {
+      "type": "cmake",
+      "label": "C++: build current target",
+      "command": "build",
+      "targets": [
+        "${command:cmake.buildTargetName}"
+      ],
+      "problemMatcher": [],
+      "detail": "Build the current CMake build target.",
       "group": {
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "C++: build current file target",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "${workspaceFolder}/C++/.cache/cmake",
+        "--target",
+        "${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "detail": "Build the executable whose target name matches the active C++ file."
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: configure",
+      "command": "configure",
+      "problemMatcher": [],
+      "detail": "Run CMake configure for the C++ project."
     }
   ]
 }

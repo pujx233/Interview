@@ -1,8 +1,29 @@
 {
-    "cmake.buildDirectory": "${workspaceFolder}/C++/build",
+    "cmake.buildDirectory": "${workspaceFolder}/C++/.cache/cmake",
+    "cmake.buildBeforeRun": true,
+    "cmake.configureOnOpen": true,
+    "cmake.configureSettings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+    },
+    "cmake.debugConfig": {
+        "MIMode": "lldb",
+        "console": "integratedTerminal",
+        "stopAtEntry": false
+    },
+    "cmake.launchBehavior": "newTerminal",
+    "cmake.sourceDirectory": "${workspaceFolder}/C++",
+    "cmake.setBuildTargetSameAsLaunchTarget": true,
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/C++/.cache/cmake/compile_commands.json",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "github.copilot.editor.enableAutoCompletions": false,
     "github.copilot.enable": {
         "*": false
     },
-    "cmake.sourceDirectory": "/Users/sai/Desktop/Interview/C++"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.import.maven.enabled": false,
+    "java.import.gradle.enabled": false,
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": []
 }

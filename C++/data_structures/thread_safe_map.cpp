@@ -1,8 +1,8 @@
-#include <unordered_map>
-#include <string>
-#include <mutex>
 #include <cstdint>
 #include <iostream> // main 函数需要
+#include <mutex>
+#include <string>
+#include <unordered_map>
 namespace interview {
 class thread_safe_map {
 private:
@@ -12,7 +12,7 @@ private:
 public:
   thread_safe_map() {}
 
-  void insert(int32_t key, const std::string& value) {
+  void insert(int32_t key, const std::string &value) {
     std::lock_guard<std::mutex> lock(mtx);
     map[key] = value;
   }
@@ -23,7 +23,8 @@ public:
    * @param value [out] 如果找到，值会被存放在这个变量里
    * @return 如果键存在则返回 true, 否则返回 false
    */
-  bool get(int32_t key, std::string& value) const { // 注意第二个参数是 string 的引用
+  bool get(int32_t key,
+           std::string &value) const { // 注意第二个参数是 string 的引用
     std::lock_guard<std::mutex> lock(mtx);
     auto it = map.find(key);
     if (it == map.end()) {
@@ -35,7 +36,7 @@ public:
   }
 };
 
-}
+} // namespace interview
 
 // --- 如何使用 C++11 风格的 get 方法 ---
 int main() {

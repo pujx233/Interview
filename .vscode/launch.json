@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "searchRange",
+      "request": "launch",
+      "mainClass": "Java.Leetcode.lc34.searchRange",
+      "projectName": "Interview_c8f723b7"
+    },
+    {
+      "type": "java",
+      "name": "search",
+      "request": "launch",
+      "mainClass": "Java.Leetcode.lc33.search",
+      "projectName": "Interview_c8f723b7"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Java.Leetcode.lc92.Solution",
+      "projectName": "Interview_c8f723b7"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Java.Leetcode.lc25.Solution",
+      "projectName": "Interview_c8f723b7"
+    },
+    {
+      "name": "C++: Debug current file target",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/C++/.cache/cmake/${fileBasenameNoExtension}",
+      "cwd": "${workspaceFolder}/C++/.cache/cmake",
+      "args": [],
+      "MIMode": "lldb",
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "preLaunchTask": "C++: build current file target"
+    },
+    {
+      "name": "C++: Debug current CMake target",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "cwd": "${command:cmake.launchTargetDirectory}",
+      "args": [],
+      "MIMode": "lldb",
+      "stopAtEntry": false,
+      "externalConsole": false
+    }
+  ]
+}
