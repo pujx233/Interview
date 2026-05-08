@@ -6,7 +6,8 @@
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
     },
     "cmake.debugConfig": {
-        "MIMode": "lldb",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/bin/gdb",
         "console": "integratedTerminal",
         "stopAtEntry": false
     },
